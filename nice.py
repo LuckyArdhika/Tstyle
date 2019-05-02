@@ -332,6 +332,7 @@ if p == '12':
    fo.write('date | lolcat\n')
    fo.write("PS1='\033[92m╭────•root@CyXNot404#")
    fo.write("\n╰──• '")
+   fo.close()
    os.system("rm $HOME/../usr/etc/bash.bashrc")
    os.system("cp -f bash.bashrc $HOME/../usr/etc")
    print "           \033[92mProses Selesai...!"                                             
